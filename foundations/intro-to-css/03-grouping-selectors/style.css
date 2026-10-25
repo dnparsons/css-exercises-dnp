@@ -1,1 +1,35 @@
-/* Add CSS Styling */
+* {
+    background-color: black;
+}
+
+.first {
+    color:white;
+    background-color: black;
+}
+
+.second {
+    background-color:yellow;
+
+}
+
+.both {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 24px
+
+}
+.flex-container1 {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  height: 400px;           /* Requires a defined height to see vertical centering */
+  background-color:black;
+}
+
+.flex-container2 {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  height: 50px;           /* Requires a defined height to see vertical centering */
+  width: 300px;
+  background-color:white;
+}
